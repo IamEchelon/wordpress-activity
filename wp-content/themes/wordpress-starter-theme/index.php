@@ -4,10 +4,24 @@
 <?php if ( have_posts() ) : ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
+	
 
-<?php /*
+	<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+	<small><?php the_time('F jS, Y'); ?> by <?php the_author_posts_link(); ?></small>
+	<div class="entry">
+ 		<?php the_content(); ?>
+ 	</div>
 
-1. Setup your wordpress installation. This includes the following:
+
+<?php endwhile; ?>
+
+<?php else : ?>
+	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+<?php endif; ?>
+
+<?php get_footer(); ?>
+
+<!-- 1. Setup your wordpress installation. This includes the following:
    
    - set up your database
    - configure wordpress via wp-config.php
@@ -47,14 +61,4 @@
 	6.  Include a link in the sidebar that links to an archive of all of the events, in order by date.
 
 3.	As you're working, make sure to make commits as you work through each segment so I can follow along 
-	easily in your code. If you have questions, email me at josh@newkind.com
-
-*/ ?>
-
-<?php endwhile; ?>
-
-<?php else : ?>
-	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-<?php endif; ?>
-
-<?php get_footer(); ?>
+	easily in your code. If you have questions, email me at josh@newkind.com -->
