@@ -13,7 +13,13 @@
  	</div>
 
 
+
+
 <?php endwhile; ?>
+
+	
+	<?php next_posts_link( 'Older posts' ); ?>
+	<?php previous_posts_link( 'Newer posts' ); ?>
 
 <?php else : ?>
 	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
@@ -62,3 +68,5 @@
 
 3.	As you're working, make sure to make commits as you work through each segment so I can follow along 
 	easily in your code. If you have questions, email me at josh@newkind.com -->
+
+
