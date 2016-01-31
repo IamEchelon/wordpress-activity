@@ -3,25 +3,43 @@
  * Each page-type or module should have it's own SCSS file to break up the styles 
  * in meaningful, semantic chunks.
 */
-/* line 1, ../sass/_basestyles.scss */
+/* line 4, ../sass/_basestyles.scss */
 header {
   padding-top: 1em;
 }
 
-/* line 6, ../sass/_basestyles.scss */
+/* line 9, ../sass/_basestyles.scss */
 body {
   font-family: Arial, sans-serif;
   font-size: 14px;
   color: #333;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* line 12, ../sass/_basestyles.scss */
+/* line 18, ../sass/_basestyles.scss */
 a:link,
 a:visited {
   color: #006e3c;
 }
 
-/* line 17, ../sass/_basestyles.scss */
+/* line 23, ../sass/_basestyles.scss */
 p {
   line-height: 1.65em;
+}
+
+/* line 27, ../sass/_basestyles.scss */
+h1, h2 {
+  text-align: center;
+}
+
+/* line 32, ../sass/_basestyles.scss */
+ul li {
+  list-style-type: none;
+}
+
+/* line 38, ../sass/_basestyles.scss */
+.site-nav li {
+  display: inline;
 }

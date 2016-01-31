@@ -25,10 +25,10 @@
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    	
+
 		ga('create', accountID, 'auto');
 		ga('send', 'pageview');
-    	
+
 	</script>
 	<!-- END GOOGLE ANALYTICS -->
 
@@ -37,10 +37,10 @@
 
 	<header class="site-header">
             <h1><a href="<?php echo home_url(); ?>"><?php bloginfo("name"); ?></a></h1>
-            <h5><?php bloginfo("description"); ?></h5>
+            
 
             <nav class="site-nav">
-                
+
                 <?php wp_nav_menu(); ?>
 
             </nav>
