@@ -20,4 +20,19 @@ function widget_setup(){
 
 add_action('widgets_init','widget_setup');
 
+/*
+==========================================================
+Category Filter
+==========================================================
+*/
+
+function exclude_category($query) {
+if ( $query->is_front_page() ) {
+$query->set('cat', '-191');
+}
+return $query;
+}
+add_filter('pre_get_posts', 'exclude_category');
+
+
 ?>
