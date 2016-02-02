@@ -2,7 +2,7 @@
 
 
 <div class="row">
-	<div class="col-md-8">
+	<div class="col-md-7">
 	<?php $query = new WP_Query( array(
 	                'post_type' => 'post',
 	                'posts_per_page' => 3
@@ -19,7 +19,7 @@
 	            <?php endwhile; ?>
 	</div>            
 	
-	<div class="col-md-2">
+	<div class="col-md-3">
 		<?php get_sidebar(); ?>
 	</div>
 </div>

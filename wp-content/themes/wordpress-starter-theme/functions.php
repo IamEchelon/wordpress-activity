@@ -5,6 +5,7 @@ Sidebar Function
 ==========================================================
 */
 
+/*
 function widget_setup(){
     register_sidebar(array(
         'name' => 'sidebar',
@@ -19,6 +20,8 @@ function widget_setup(){
 }
 
 add_action('widgets_init','widget_setup');
+*/
+
 
 /*
 ==========================================================
@@ -33,6 +36,6 @@ $query->set('cat', '-191');
 return $query;
 }
 add_filter('pre_get_posts', 'exclude_category');
-
+ 
 
 ?>
