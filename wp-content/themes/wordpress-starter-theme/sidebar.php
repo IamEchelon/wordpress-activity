@@ -3,7 +3,8 @@
 <?php $query = new WP_Query( array(
 	                'post_type' => 'post',
 	                'category_name' => 'event',
-	                'orderby'  => array( 'meta_value_num' => 'DESC', 'title' => 'DESC' ),
+	                'order_by' => 'meta_value_num',
+	                'meta_key'  => 'event_date_info',
 	                'posts_per_page' => 3
 	            ) );
 	            
@@ -18,4 +19,5 @@
 		            </div>
 		            
 	            
-	            <?php endwhile; ?>
+	            <?php endwhile; 
+?>

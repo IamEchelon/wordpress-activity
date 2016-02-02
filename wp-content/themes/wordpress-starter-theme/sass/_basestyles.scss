@@ -1,5 +1,6 @@
-$primary-color: #006e3c;
-$secondary-color: #333;
+$primary-color: white;
+$background-color: #5ee8bf;
+
 
 header {
     padding-top: 1em;
@@ -9,7 +10,8 @@ header {
 body {
     font-family: Arial, sans-serif;
     font-size: 14px;
-    color: $secondary-color;
+    background-color: $background-color;
+    color: $primary-color;
     }
 
 a:link,
@@ -27,13 +29,28 @@ h1, h2{
 
 ul {
     li{
-        list-style-type: none;
+        list-style-type: none;   
     }
+}
+
+.site-header {
+	padding-top: 2.5em;
+	margin-bottom: 4em;
 }
 
 .site-nav {
+	padding-top: 2em;
     li {
         display: inline;
+        margin: 0 20px;
     }
 }
 
+
+.site-footer{
+	margin-left: auto;
+	margin-right: auto;
+	position:absolute;
+	bottom: 0;
+	text-align: center;
+}

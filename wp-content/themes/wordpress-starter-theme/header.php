@@ -35,13 +35,14 @@
 </head>
 <body>
 <div class="container">
-		<header class="site-header">
-	            <div class=""><h1><a href="<?php echo home_url(); ?>"><?php bloginfo("name"); ?></a></h1></div>
+
+		<header class="site-header row">
+	            <div class="col-md-2 text-left"><h1><a href="<?php echo home_url(); ?>"><?php bloginfo("name"); ?></a></h1></div>
 	            
 	
 	            <nav class="site-nav">
 	
-	                <div class=""><?php wp_nav_menu(); ?></div>
+	                <div class="col-md-4 col-md-offset-4 text-right"><?php wp_nav_menu(); ?></div>
 	
 	            </nav>
         </header>

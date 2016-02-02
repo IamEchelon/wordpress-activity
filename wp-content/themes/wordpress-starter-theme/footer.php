@@ -1,4 +1,4 @@
-<footer class="site-footer text-center" >
+<footer class="site-footer" >
         <p><?php bloginfo('name'); ?> - &copy <?php echo date("Y"); ?></p>
 </footer>
 

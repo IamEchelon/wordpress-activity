@@ -3,40 +3,61 @@
  * Each page-type or module should have it's own SCSS file to break up the styles 
  * in meaningful, semantic chunks.
 */
-/* line 4, ../sass/_basestyles.scss */
+/* line 5, ../sass/_basestyles.scss */
 header {
   padding-top: 1em;
 }
 
-/* line 9, ../sass/_basestyles.scss */
+/* line 10, ../sass/_basestyles.scss */
 body {
   font-family: Arial, sans-serif;
   font-size: 14px;
-  color: #333;
+  background-color: #5ee8bf;
+  color: white;
 }
 
-/* line 15, ../sass/_basestyles.scss */
+/* line 17, ../sass/_basestyles.scss */
 a:link,
 a:visited {
-  color: #006e3c;
+  color: white;
 }
 
-/* line 20, ../sass/_basestyles.scss */
+/* line 22, ../sass/_basestyles.scss */
 p {
   line-height: 1.65em;
 }
 
-/* line 24, ../sass/_basestyles.scss */
+/* line 26, ../sass/_basestyles.scss */
 h1, h2 {
   text-align: center;
 }
 
-/* line 29, ../sass/_basestyles.scss */
+/* line 31, ../sass/_basestyles.scss */
 ul li {
   list-style-type: none;
 }
 
-/* line 35, ../sass/_basestyles.scss */
+/* line 36, ../sass/_basestyles.scss */
+.site-header {
+  padding-top: 2.5em;
+  margin-bottom: 4em;
+}
+
+/* line 41, ../sass/_basestyles.scss */
+.site-nav {
+  padding-top: 2em;
+}
+/* line 43, ../sass/_basestyles.scss */
 .site-nav li {
   display: inline;
+  margin: 0 20px;
+}
+
+/* line 50, ../sass/_basestyles.scss */
+.site-footer {
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
 }
