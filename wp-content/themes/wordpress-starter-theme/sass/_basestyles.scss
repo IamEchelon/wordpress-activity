@@ -12,7 +12,7 @@ body {
     font-size: 14px;
     background-color: $background-color;
     color: $primary-color;
-    }
+ }
 
 a:link,
 a:visited {
@@ -24,7 +24,7 @@ p {
 }
 
 h1, h2{
-    text-align: center;
+   
 }
 
 ul {
@@ -46,11 +46,11 @@ ul {
     }
 }
 
+.sidebar{
+	padding-left: 1.5em;
+}
+
 
 .site-footer{
-	margin-left: auto;
-	margin-right: auto;
-	position:absolute;
-	bottom: 0;
-	text-align: center;
+	   
 }
