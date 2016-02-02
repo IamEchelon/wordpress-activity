@@ -11,8 +11,10 @@
 
 <?php endwhile; ?>
 
-	<?php next_posts_link( 'Older posts' ); ?>
-	<?php previous_posts_link( 'Newer posts' ); ?>
+	<div class="page-jump">
+		<?php next_posts_link( 'Older posts' ); ?>
+		<?php previous_posts_link( 'Newer posts' ); ?>
+	</div>
 
 <?php else : ?>
 	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>

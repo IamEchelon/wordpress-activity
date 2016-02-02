@@ -52,3 +52,21 @@ ul li {
 .sidebar {
   padding-left: 1.5em;
 }
+
+/* line 53, ../sass/_basestyles.scss */
+.page-jump {
+  padding: 20px;
+  clear: both;
+}
+
+/* line 59, ../sass/_basestyles.scss */
+.site-footer {
+  position: fixed;
+  padding: 0.5em;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  text-align: center;
+  clear: both;
+}
