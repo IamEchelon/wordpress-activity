@@ -21,4 +21,5 @@
 		            
 		            <?php endwhile; 
 	?>
+	<a href="http://localhost:8888/wordpress-activity/archive/"><h3>Archive</h3></a>
 </div>
